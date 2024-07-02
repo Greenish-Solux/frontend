@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="369dp"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="342dp"
+            android:layout_height="369dp"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/rectangle_12_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="91dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:fontFamily="@font/pretendard_medium"
+                    android:text="어떤 식물 정보를 찾으세요?"
+                    android:textColor="#D2D2D2"
+                    android:textSize="18sp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="19dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    />
+
+                <ImageView
+                    android:layout_width="310dp"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="57dp"
+                    android:src="@drawable/line_136"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="22.4dp"
+                    android:layout_marginStart="323dp"
+                    android:layout_marginTop="21dp"
+                    android:src="@drawable/glass"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:fontFamily="@font/pretendard_semibold"
+                    android:gravity="center_vertical|start"
+                    android:text="최근 검색어"
+                    android:textColor="#525252"
+                    android:textSize="14sp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="62dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp">
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="10.27dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginStart="40dp"
+                    android:src="@drawable/reading_glasses"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="237dp"
+                    android:layout_height="36dp"
+                    android:fontFamily="@font/pretendard_regular"
+                    android:gravity="center_vertical|start"
+                    android:text="식물키우기 적정 온도"
+                    android:textColor="#525252"
+                    android:textSize="14sp"
+                    android:layout_marginStart="61dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    />
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginStart="329dp"
+                    android:src="@drawable/group_51011"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
